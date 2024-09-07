@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intergalactic Trade Network Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Intergalactic Trade Network Dashboard</h1>
+    </header>
+
+    <div class="dashboard-container">
+        <!-- Trade Volume Section -->
+        <div class="card">
+            <h2>Current Trade Volume</h2>
+            <canvas id="tradeVolumeChart"></canvas>
+        </div>
+
+        <!-- Cargo Shipments Section -->
+        <div class="card">
+            <h2>Active Cargo Shipments</h2>
+            <canvas id="cargoShipmentsChart"></canvas>
+        </div>
+
+        <!-- Inventory Levels Section -->
+        <div class="card">
+            <h2>Inventory Levels (Space Stations)</h2>
+            <canvas id="inventoryLevelsChart"></canvas>
+        </div>
+
+        <!-- Real-Time Updates Section -->
+        <div class="card">
+            <h2>Real-Time Updates</h2>
+            <ul id="realTimeUpdates"></ul>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
